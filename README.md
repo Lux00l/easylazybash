@@ -5,7 +5,7 @@ Add aliasses commands to the /bin/bash shell of Linux
 
 ## First INSTALL :
 
-* root is required
+* root is required or be members of sudoers  ```sudo -i```
 
 * ```wget https://luxool.dev/esaylazybash/starteasy ```
  
