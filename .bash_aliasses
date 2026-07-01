@@ -1,0 +1,11 @@
+unalias _
+alias allusers='cat /etc/passwd | grep -E ":x:[0-9]{4,}"'
+alias list='ls -lastd' 
+alias ls='ls --color=auto' 
+alias reboot-now='sudo systemctl reboot' 
+alias recordalias='alias > ~/.bash_aliasses && echo "EsayLazyBash recorded your Alias"' 
+alias shutdown-now='sudo systemctl poweroff' 
+alias usergroups='cat /etc/group | grep -E ":x:[0-9]{4,}"' 
+alias recallalias='source ~/.bash_aliasses' 
+alias updateasy='clear && cd ~/ && rm -f ~/starteasy && wget https://luxool.dev/easylazybash/starteasy && chmod 761 ~/starteasy && ~/starteasy'
+alias allusers='cat /etc/passwd | grep -E ":x:[0-9]{4,}"'
