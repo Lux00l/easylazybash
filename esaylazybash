@@ -1,0 +1,18 @@
+#!/bin/bash
+clear
+echo " *****  ****   **** *   *  *    ****  ***** *   *  ****  ****   **** *   * "
+echo " *          * *     *   *  *        *    *  *   *  *   *     * *     *   * "
+echo " ***    *** *  ***   * *   *     ****   *    * *   ****   ****  ***  ***** "
+echo " *     *    *     *   *    *    *   *  *      *    *   * *   *     * *   * "
+echo " *****  ***** ****    *    **** ***** *****   *    ****  ***** ****  *   * "
+
+echo Easy Lasy Bash is an Alias ToolKitSet For Linux System Administrator v.1.1.1 lxl
+
+alias allusers='cat /etc/passwd | grep -E ":x:[0-9]{4,}"'
+alias list='ls -lastd'
+alias ls='ls --color=auto'
+alias reboot-now='sudo systemctl reboot'
+alias recordalias='alias > ~/.bash_aliasses && echo '\''EsayLazyBash recorded your Alias'\'''
+alias shutdown-now='sudo systemctl poweroff'
+alias usergroups='cat /etc/group | grep -E ":x:[0-9]{4,}"'
+alias recallalias='source ~/.bash_aliasses'
