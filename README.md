@@ -1,9 +1,9 @@
-# Easy Lazy Bash
+# ⌨ Easy Lazy Bash
 An Alias Tool Kit Set for Linux System Administor
 
 Add aliasses commands to the /bin/bash shell of Linux
 
-## First INSTALL :
+## 💽 First INSTALL :
 
 * root is required or be members of sudoers  ```sudo -i```
 
@@ -13,7 +13,7 @@ Add aliasses commands to the /bin/bash shell of Linux
  
 * ```~/starteasy```
 
-## Update :
+## 💾 Update :
 
 * ```updateasy```  upload the new configuration ~/.bash_aliasses
 
@@ -24,13 +24,13 @@ you can record all your alias in with
 * else if you backup it before : ```mv ~/.bash_alliasses your_backup_filename```
 * and restore if with ```mv your_backup_filename ~/.bash_alliasses```
 
-## Offical Aliasses : 
+## 🚀 Offical Aliasses : 
 
-### users & group :
+### 👨‍🚀 users & group :
 * allusers : show only the users name on the system
 * usergroups : show the groups user on the system
 
-### reboot and shutdown
+### ⏻ reboot and shutdown
 
 * reboot-now
 * shutdown-now
