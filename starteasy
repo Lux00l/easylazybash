@@ -11,7 +11,7 @@ set -euo pipefail
 if [ "$(id -u)" -eq 0 ]; then
   sudo() { "$@"; }
 fi
-
+OLD_PATH=$PWD # store current path
 cd ~
 clear
 echo " *****  ****   **** *   *  *    ****  ***** *   *  ****  ****   **** *   * "
@@ -23,8 +23,10 @@ echo " *****  ***** ****    *    **** ***** *****   *    ****  ***** ****  *   *
 echo Easy Lasy Bash is an Alias ToolKitSet For Linux System Administrator v.1.1.2 lxl
 
 echo updating Aliasses form wget https://raw.githubusercontent.com/Lux00l/easylazybash/refs/heads/main/.bash_aliasses
-rm -f ~/.bash_aliasses
-wget  wget https://raw.githubusercontent.com/Lux00l/easylazybash/refs/heads/main/.bash_aliasses
+rm -f ~/.bash_aliasses #remove old aliasses and update it
+wget https://raw.githubusercontent.com/Lux00l/easylazybash/refs/heads/main/.bash_aliasses
 
-cat  ~/.bash_aliasses
 source ~/.bash_aliasses  >/dev/null 2>&1
+cd $OLD_PATH
+myalias
+
