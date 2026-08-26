@@ -1,4 +1,14 @@
 #!/bin/bash
+#---------------------------------------
+# author : Luc Soulerin   
+# purpose : Load Alias AdminSys Toolkit
+#______________________________________
+
+set -euo pipefail
+if [ "$(id -u)" -eq 0 ]; then
+  sudo() { "$@"; }
+fi
+
 clear
 echo " *****  ****   **** *   *  *    ****  ***** *   *  ****  ****   **** *   * "
 echo " *          * *     *   *  *        *    *  *   *  *   *     * *     *   * "
