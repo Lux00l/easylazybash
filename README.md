@@ -20,7 +20,7 @@ Add aliasses commands to the /bin/bash shell of Linux
 you can record all your alias in with 
 
 * ```recordalias``` and restore with ```recallalias```
-* /!\ Warning this can be erased by the ```updatesay``` command 
+* /!\ Warning this can be erased by the ```updateasy``` command 
 * else if you backup it before : ```mv ~/.bash_alliasses your_backup_filename```
 * and restore if with ```mv your_backup_filename ~/.bash_alliasses```
 
