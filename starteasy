@@ -12,6 +12,7 @@ if [ "$(id -u)" -eq 0 ]; then
   sudo() { "$@"; }
 fi
 
+cd ~
 clear
 echo " *****  ****   **** *   *  *    ****  ***** *   *  ****  ****   **** *   * "
 echo " *          * *     *   *  *        *    *  *   *  *   *     * *     *   * "
@@ -21,9 +22,9 @@ echo " *****  ***** ****    *    **** ***** *****   *    ****  ***** ****  *   *
 
 echo Easy Lasy Bash is an Alias ToolKitSet For Linux System Administrator v.1.1.2 lxl
 
-echo updating Aliasses form https://luxool.dev/easylazybash/.bash_aliasses
+echo updating Aliasses form wget https://raw.githubusercontent.com/Lux00l/easylazybash/refs/heads/main/.bash_aliasses
 rm -f ~/.bash_aliasses
-wget https://luxool.dev/easylazybash/.bash_aliasses
+wget  wget https://raw.githubusercontent.com/Lux00l/easylazybash/refs/heads/main/.bash_aliasses
 
 cat  ~/.bash_aliasses
 source ~/.bash_aliasses  >/dev/null 2>&1
