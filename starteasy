@@ -3,7 +3,7 @@
 # name : starteasy
 # description : Load an Alias AdminSys Toolkit
 # author : Luc Soulerin  
-# install : wget https://github.com/LuxOOl/easylazybash/starteasy | sh
+# install : wget https://raw.githubusercontent.com/Lux00l/easylazybash/refs/heads/main/starteasy |sh
 # usage : ./starteasy
 #______________________________________________________________________
 
