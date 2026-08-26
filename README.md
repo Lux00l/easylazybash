@@ -5,8 +5,12 @@ Add aliasses commands to the /bin/bash shell of Linux
 
 ## 💽 First INSTALL :
 
-* ```wget https://raw.githubusercontent.com/Lux00l/easylazybash/refs/heads/main/starteasy |sh ```
- 
+* ```wget -O ~/starteasy https://raw.githubusercontent.com/Lux00l/easylazybash/refs/heads/main/starteasy ```
+
+or silent install direct :
+
+``` wget -O  ~/.bash_aliasses https://raw.githubusercontent.com/Lux00l/easylazybash/refs/heads/main/.bash_aliasses && source ~/.bash_aliasses `` 
+
 
 ## 💾 Update :
 
