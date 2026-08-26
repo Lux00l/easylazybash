@@ -5,13 +5,8 @@ Add aliasses commands to the /bin/bash shell of Linux
 
 ## 💽 First INSTALL :
 
-* root is required or be members of sudoers  ```sudo -i```
-
 * ```wget https://raw.githubusercontent.com/Lux00l/easylazybash/refs/heads/main/starteasy |sh ```
  
-* ```chmod 761 starteasy```
- 
-* ```~/starteasy```
 
 ## 💾 Update :
 
